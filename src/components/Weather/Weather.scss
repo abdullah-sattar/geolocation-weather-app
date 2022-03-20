@@ -1,0 +1,9 @@
+.weather {
+    text-align: center;
+    margin: 30vh 0;
+    >p {
+        >span {
+            font-weight: bold;
+        }
+    }
+}
