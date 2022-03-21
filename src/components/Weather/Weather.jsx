@@ -37,9 +37,9 @@ const Weather = (props) => {
   const dayOrNight = () => {
       if(weather.time < 12) {
           return "Good Morning!"
-      } else if(weather.time > 12 && weather.time < 18) {
+      } else if(weather.time >= 12 && weather.time < 18) {
           return "Good Afternoon!"
-      } else if(weather.time > 18 && weather.time < 24) {
+      } else if(weather.time >= 18 && weather.time < 24) {
           return "Good Evening!"
       }
   };
